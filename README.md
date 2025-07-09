@@ -42,17 +42,21 @@ habit-tracker-application/
 ## Installation 
 #### Option 1:
 ```shell
+To insatll make sure system is compatilbe with pip and git and installed 
 Clone and install from GitHub:
 
 pip install git+https://github.com/peerka/OOFPP01_habits_project.git
 ```
 #### Option 2: 
 ```shell
+#In terminal run following steps 
 git clone https://github.com/peerka/OOFPP01_habits_project.git
-cd habit-tracker-application
+cd OOFPP01_habits_project
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt 
+# Run pip install 
+pip insatll . 
 ```
 
 ## Uninstall the habit tracker
